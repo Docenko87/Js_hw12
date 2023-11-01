@@ -1,0 +1,33 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #c6c3c1;
+    border-radius: 5px;
+    background-color: #fbf2e9;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e1e1e1;
+    border: 1px solid #c6c3c1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Поиск фильмов</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Поиск фильмов</h1>
+        <form class="form" id="searchForm">
+            <input type="text" id="movieTitle" placeholder="Введите название фильма">
+            <select id="type">
+                <option value="movie">Фильм</option>
+                <option value="series">Сериал</option>
+                <option value="episode">Эпизод</option>
+            </select>
+            <button type="submit">Найти</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
